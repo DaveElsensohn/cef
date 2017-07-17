@@ -1,0 +1,28 @@
+{
+  "name": "deasilworks/cef",
+  "type": "library",
+  "description": "4klift CEF Component",
+  "homepage": "https://github.com/deasilworks/4klift",
+  "license": "MIT",
+  "keywords": ["cassandra","php","database"],
+  "authors": [
+    {
+      "name": "Deasil Works, Inc.",
+      "email": "code@deasil.works"
+    },
+    {
+      "name": "Craig Johnston",
+      "email": "craig@deasil.works"
+    }
+  ],
+  "require": {
+    "php": "^5.6.0"
+  },
+  "autoload": {
+    "psr-4": { "deasilworks\\cef\\": "" },
+    "exclude-from-classmap": [
+      "/Tests/"
+    ]
+  },
+  "minimum-stability": "dev"
+}
